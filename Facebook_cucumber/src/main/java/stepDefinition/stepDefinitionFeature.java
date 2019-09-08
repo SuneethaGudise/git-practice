@@ -37,15 +37,16 @@ public class stepDefinitionFeature {
 	    Assert.assertEquals("Facebook - Log In or Sign Up",title);
 	  //  throw new PendingException();
 	}
-	@Then("^User enters email and password$")
-	public void User_enters_email_and_password() throws Throwable {
-	   
-	   driver.findElement(By.id("email")).sendKeys("sunitha.gudise@gmail.com");
-	   driver.findElement(By.id("pass")).sendKeys("kutty136");
+	@Then("^User has to give the \"([^\"]*)\" and \"([^\"]*)\"$")
+ public void User_has_to_give_the_and(String email, String password) throws Throwable {
+	   System.out.println(email +"and " + password);
+	   driver.findElement(By.id("email")).sendKeys(email);
+	   driver.findElement(By.id("pass")).sendKeys(password);
 	}
  	@And("^User has to click the login button$")
 	public void User_has_to_click_the_login_button() throws Throwable {
-		
+	//System.out.println(driver.findElement(By.id("email")).getText());
+	//	System.out.println(driver.findElement(By.id("pass")).getText());
 			//driver.findElement(By.cssSelector("#u_0_a")).click();
  	   driver.findElement(By.id("loginbutton")).click();
 
