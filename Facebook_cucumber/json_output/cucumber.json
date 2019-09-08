@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "FaceBook login test Scenario",
+        "description": "",
+        "id": "facebook-login-feature;facebook-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3191743696,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the Browser",
+            "match": {
+              "location": "stepDefinitionFeature.open_the_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4396767283,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open the Facebook page",
+            "match": {
+              "location": "stepDefinitionFeature.open_the_Facebook_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8078797,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User wants to login into Facebook",
+            "match": {
+              "location": "stepDefinitionFeature.User_wants_to_login_into_Facebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 295684467,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters email and password",
+            "match": {
+              "location": "stepDefinitionFeature.User_enters_email_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14279559666,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User has to click the login button",
+            "match": {
+              "location": "stepDefinitionFeature.User_has_to_click_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "FaceBook login feature",
+    "description": "",
+    "id": "facebook-login-feature",
+    "keyword": "Feature",
+    "uri": "Facebook.feature"
+  }
+]
