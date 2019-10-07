@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG_Selenium]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="basictestng.SeleniAmazonTest">
+        <methods>
+          <include name="openTitlepage"/>
+          <include name="setUpChrome"/>
+          <include name="tearDown"/>
+          <include name="chromedriver"/>
+          <include name="setUp"/>
+          <include name="tearDownChrome"/>
+          <include name="tearDownChromeTest"/>
+        </methods>
+      </class> <!-- basictestng.SeleniAmazonTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [TestNG_Selenium] -->

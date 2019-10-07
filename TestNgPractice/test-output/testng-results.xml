@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44" started-at="2019-09-22T21:22:34Z" finished-at="2019-09-22T21:22:34Z">
+    <groups>
+      <group name="testcase=3">
+        <method signature="MockpracTest.testcase2()[pri:0, instance:com.mock.MockpracTest@5f282abb]" name="testcase2" class="com.mock.MockpracTest"/>
+      </group> <!-- testcase=3 -->
+      <group name="testcase=2">
+        <method signature="MockpracTest.testcase3()[pri:0, instance:com.mock.MockpracTest@5f282abb]" name="testcase3" class="com.mock.MockpracTest"/>
+      </group> <!-- testcase=2 -->
+    </groups>
+    <test name="Default test" duration-ms="44" started-at="2019-09-22T21:22:34Z" finished-at="2019-09-22T21:22:34Z">
+      <class name="com.mock.MockpracTest">
+        <test-method status="PASS" signature="testcase2()[pri:0, instance:com.mock.MockpracTest@5f282abb]" name="testcase2" duration-ms="12" started-at="2019-09-22T21:22:34Z" finished-at="2019-09-22T21:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method status="PASS" signature="testcase3()[pri:0, instance:com.mock.MockpracTest@5f282abb]" name="testcase3" duration-ms="1" started-at="2019-09-22T21:22:34Z" finished-at="2019-09-22T21:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase3 -->
+      </class> <!-- com.mock.MockpracTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
